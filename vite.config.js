@@ -9,5 +9,5 @@ export default defineConfig({
 
     // })
     plugins: [[react()], tailwindcss(), flowbiteReact()],
-    base : process.env.VITE_BASE_PATH || "/project",
+    // base : process.env.VITE_BASE_PATH || "/project",
 })

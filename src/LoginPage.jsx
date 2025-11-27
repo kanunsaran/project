@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Swal from "sweetalert2";
+import { Link } from "react-router";
 
 export function LoginPage() {
   useEffect(() => {
@@ -48,12 +49,13 @@ export function LoginPage() {
             <div className="text-right text-sm text-gray-500 cursor-pointer hover:underline mb-6">
               ลืมรหัสผ่าน
             </div>
-            <button
+            <Link
               type="submit"
+              to={"/kkk"}
               className="w-full bg-pink-400 text-white py-3 rounded-lg font-semibold hover:bg-pink-500 transition"
             >
               เข้าสู่ระบบ
-            </button>
+            </Link>
           </form>
         </div>
       </div>
